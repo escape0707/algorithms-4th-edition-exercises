@@ -1,0 +1,8 @@
+{
+    "code-runner.executorMap": {
+        "java": "javac $fileName && java $fileNameWithoutExt"
+    },
+    "files.exclude": {
+        "*.class": true,
+    }
+}
