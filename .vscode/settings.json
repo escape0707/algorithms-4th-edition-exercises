@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "java": "javac $fileName && java $fileNameWithoutExt"
+        "java": "\b\b\b\b\b\b\b\b\b\bjavac -cp .:lib/stdlib.jar $fileName && java -cp .:lib/stdlib.jar $fileNameWithoutExt"
     },
     "files.exclude": {
         "*.class": true,
