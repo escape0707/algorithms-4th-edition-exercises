@@ -1,8 +1,25 @@
 {
     "code-runner.executorMap": {
-        "java": "\b\b\b\b\b\b\b\b\b\bjavac -cp .:lib/stdlib.jar $fileName && java -cp .:lib/stdlib.jar $fileNameWithoutExt"
+        "java": "\b\b\b\b\b\b\b\b\b\bjavac $fileName && java $fileNameWithoutExt"
     },
     "files.exclude": {
         "*.class": true,
+        "BinaryIn.java": true,
+        "BinaryOut.java": true,
+        "BinaryStdIn.java": true,
+        "BinaryStdOut.java": true,
+        "Draw.java": true,
+        "DrawListener.java": true,
+        "GrayscalePicture.java": true,
+        "In.java": true,
+        "Out.java": true,
+        "Picture.java": true,
+        "StdArrayIO.java": true,
+        "StdAudio.java": true,
+        "StdDraw.java": true,
+        "StdIn.java": true,
+        "StdOut.java": true,
+        "StdRandom.java": true,
+        "StdStats.java": true
     }
 }
